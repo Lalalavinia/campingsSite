@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background: rgba(0, 0, 0, 0);
+    height:10vh;
+    font-family: 'Quicksand', sans-serif;
+    list-style-type: none;
+    text-align: center;
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid black ; */
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+}
+.navbar li{
+    font-size: 2vw;
+    padding:1.5vh;
+    margin-left: 1vw;
+    margin-right: 2vw;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+#homenav li:hover{
+    background: rgba(255, 255, 255, 0.4);
+}
+#pagenav li:hover{
+    background: black;
+    cursor: pointer;
+}
+#pagenav li:hover a{
+    color: white;
+}
+#pagenav li.current{
+    border: 1px solid black;
+    border-right: 1px solid black;
+}
+#pagenav li .current:hover{
+    cursor: default;
+}
+
+/*--------------------------------------------------------------*/
+
+.campingPicture {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.campingPicture img{
+    width:30vw;
+    margin:1vw;
+}
+
+/*--------------------------------------------------------------*/
+#detail{
+    display: flex;
+    padding: 1em;
+}
+
+/*--------------------------------------------------------------*/
+
+#detail .leftDetail{
+    width: 40%;
+    padding-right: 2em;
+    line-height:1.5em;
+    text-align:justify
+}
+
+#detail .leftDetail .name{
+    padding-bottom: 0.1em;
+    line-height: 3em;
+}
+
+#detail .leftDetail .description{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#detail .leftDetail .address{
+    padding-top: 0.5em;
+    line-height: 2.5em;
+}
+
+/*--------------------------------------------------------------*/
+.middledetail{
+    text-align:justify;
+    padding-bottom: 1em;
+    
+}
+
+#detail .middledetail .contact{
+    line-height: 2.5em;
+}
+
+#detail .middledetail .contact li{
+    list-style-type: none;
+}
+
+#detail .middledetail .detail{
+    line-height: 3em;
+}
+
+/*--------------------------------------------------------------*/
+#detail .rightDetail{
+    width: 30%;
+    padding-right: 1em;
+    padding-left: 1em;
+    line-height: 2em;
+}
+
+#detail .rightDetail img{
+    width: 4vw;
+    height: 4vw;
+}
+
+#detail .rightDetail .comment1{
+    display: flex;
+    margin-top: 1.5em;
+}
+
+#detail .rightDetail .comment1 p{
+    margin-left: 1em;
+}
