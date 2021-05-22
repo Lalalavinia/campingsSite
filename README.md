@@ -1,2 +1,2 @@
 # campingsSite
-group work website for camping lovers
+Website for camping lovers to find camping sites nearby and hand-on tutorials.
